@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Diary</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: aliceblue;
+      padding: 30px;
+      text-align: center;
+    }
+
+    /* Text Shadow */
+    h1 {
+      color: navy;
+      text-shadow: 3px 3px 5px gray;
+    }
+
+    /* Box Shadow */
+    .diary-card {
+      width: 400px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 5px 5px 12px gray;
+    }
+
+    /* Text Indent */
+    .story {
+      text-indent: 40px;
+      text-align: left;
+      color: darkslategray;
+      line-height: 1.6;
+    }
+
+    .footer {
+      color: darkblue;
+      font-style: italic;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>My Travel Diary</h1>
+
+  <div class="diary-card">
+    <p class="story">
+      Last summer, I visited a beautiful hill station surrounded by green forests and waterfalls.
+      The fresh air, peaceful environment, and scenic views made the trip unforgettable.
+      I enjoyed hiking, taking photographs, and exploring local culture.
+    </p>
+
+    <p class="footer">Written by ___________</p>
+  </div>
+
+</body>
+</html>
