@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Book Club Notice Board</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: beige;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: darkbrown;
+    }
+
+    /* Text Transform Examples */
+    .uppercase {
+      text-transform: uppercase;
+      color: darkblue;
+    }
+
+    .capitalize {
+      text-transform: capitalize;
+      color: darkgreen;
+    }
+
+    .lowercase {
+      text-transform: lowercase;
+      color: purple;
+    }
+
+    /* Text Decoration Examples */
+    .underline {
+      text-decoration: underline;
+      color: crimson;
+    }
+
+    .overline {
+      text-decoration: overline;
+      color: teal;
+    }
+
+    .line-through {
+      text-decoration: line-through;
+      color: gray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Book Club Notice Board</h1>
+
+  <h2 class="uppercase">monthly reading challenge</h2>
+
+  <p class="capitalize">read one new book every week</p>
+
+  <p class="lowercase">THIS SENTENCE WILL APPEAR IN LOWERCASE.</p>
+
+  <h2 class="underline">Upcoming Event</h2>
+
+  <p class="overline">Author Meet and Greet</p>
+
+  <p class="line-through">Cancelled Storytelling Session</p>
+
+</body>
+</html>
