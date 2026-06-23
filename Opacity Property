@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Photo Gallery</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: aliceblue;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    .gallery-item {
+      width: 250px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: royalblue;
+      color: white;
+      border-radius: 12px;
+    }
+
+    /* Opacity Examples */
+    .high-opacity {
+      opacity: 1;
+    }
+
+    .medium-opacity {
+      opacity: 0.6;
+    }
+
+    .low-opacity {
+      opacity: 0.3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Opacity Property Demo</h1>
+
+  <div class="gallery-item high-opacity">
+    Opacity: 1 (100% Visible)
+  </div>
+
+  <div class="gallery-item medium-opacity">
+    Opacity: 0.6 (60% Visible)
+  </div>
+
+  <div class="gallery-item low-opacity">
+    Opacity: 0.3 (30% Visible)
+  </div>
+
+</body>
+</html>
