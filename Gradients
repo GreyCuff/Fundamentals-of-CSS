@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gradient Showcase</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, lightblue, lavender);
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: navy;
+    }
+
+    .card {
+      width: 300px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 15px;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .sunrise {
+      background: linear-gradient(to right, orange, gold);
+    }
+
+    .ocean {
+      background: linear-gradient(to right, deepskyblue, navy);
+    }
+
+    .forest {
+      background: linear-gradient(to right, limegreen, darkgreen);
+    }
+
+    .sunset {
+      background: linear-gradient(to right, hotpink, purple);
+    }
+  </style>
+
+</head>
+<body>
+
+  <h1>Gradient Gallery</h1>
+
+  <div class="card sunrise">Sunrise Gradient</div>
+
+  <div class="card ocean">Ocean Gradient</div>
+
+  <div class="card forest">Forest Gradient</div>
+
+  <div class="card sunset">Sunset Gradient</div>
+
+</body>
+</html>
