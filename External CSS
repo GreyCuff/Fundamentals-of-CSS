@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Nature Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="header">
+    <h1>My Nature Page</h1>
+    <p>Explore the wonders of nature!</p>
+  </div>
+
+  <div class="info-card">
+    <h2>Nature Fact</h2>
+    <p>Rainforests produce a large amount of the Earth's oxygen.</p>
+  </div>
+
+  <div class="leaf"></div>
+
+  <p class="footer">Created by ___________</p>
+
+</body>
+</html>
+
+body {
+  background-color: lightgreen;
+  background-image: linear-gradient(to bottom, lightgreen, forestgreen);
+  background-repeat: no-repeat;
+  background-position: top center;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-image: linear-gradient(to right, green, limegreen);
+  border-radius: 16px;
+  text-align: center;
+  color: white;
+  padding: 15px;
+}
+
+.info-card {
+  background-color: white;
+  border-radius: 12px;
+  color: darkgreen;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.info-card h2 {
+  color: forestgreen;
+}
+
+.leaf {
+  width: 60px;
+  height: 60px;
+  background-color: limegreen;
+  border-radius: 50%;
+  animation: glow 2s infinite alternate;
+  margin-top: 20px;
+}
+
+@keyframes glow {
+  from {
+    background-color: limegreen;
+  }
+
+  to {
+    background-color: yellowgreen;
+  }
+}
+
+.footer {
+  text-align: center;
+  color: darkgreen;
+  margin-top: 20px;
+}
