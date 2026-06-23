@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Adventure Hero Card</title>
+  <style>
+
+    /* Typography — styling for the whole page */
+    body {
+      background-color: darkslateblue;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Large title with shadow effect */
+    .hero-title {
+      font-size: 60px;
+      font-weight: bold;
+      color: gold;
+      text-shadow: 3px 3px darkorange;
+    }
+
+    /* Tagline styling */
+    .hero-tagline {
+      font-style: italic;
+      color: lightcyan;
+      text-transform: capitalize;
+    }
+
+    /* Section headings */
+    .section-heading {
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: lightpink;
+    }
+
+    /* Skills section */
+    .skill {
+      font-weight: bold;
+      color: lightgreen;
+    }
+
+    /* Challenges section */
+    .challenge {
+      text-decoration: line-through;
+      color: silver;
+    }
+
+    /* Achievement badge */
+    .award {
+      font-size: 28px;
+      font-weight: bold;
+      color: gold;
+      transform: rotate(15deg);
+    }
+
+    /* Footer text */
+    .creator {
+      color: lightpink;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="hero-title">Sky Explorer</h1>
+  <p class="hero-tagline">the bravest adventurer in the kingdom</p>
+
+  <h2 class="section-heading">special skills</h2>
+  <p class="skill">Can glide across mountains</p>
+  <p class="skill">Can solve ancient puzzles</p>
+
+  <h2 class="section-heading">biggest challenges</h2>
+  <p class="challenge">Getting lost in caves</p>
+  <p class="challenge">Stormy weather</p>
+
+  <p class="award">Master Explorer</p>
+
+  <p class="creator">Designed by ___________</p>
+
+</body>
+</html>
