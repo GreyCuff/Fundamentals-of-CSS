@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Music Star Profile</title>
+
+  <style>
+
+    /* Typography for the whole page */
+    body {
+      background-color: midnightblue;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Large title with shadow */
+    .star-name {
+      font-size: 60px;
+      font-weight: bold;
+      color: gold;
+      text-shadow: 3px 3px darkorange;
+    }
+
+    /* Stylish tagline */
+    .tagline {
+      font-style: italic;
+      color: lightblue;
+      text-transform: capitalize;
+    }
+
+    /* Section headings */
+    .heading {
+      text-transform: uppercase;
+      text-decoration: underline;
+      color: coral;
+    }
+
+    /* Favorite songs */
+    .song {
+      font-weight: bold;
+      color: lightgreen;
+    }
+
+    /* Old songs */
+    .classic {
+      text-decoration: line-through;
+      color: silver;
+    }
+
+    /* Award badge */
+    .award {
+      font-size: 28px;
+      font-weight: bold;
+      color: gold;
+      transform: rotate(10deg);
+    }
+
+    /* Footer text */
+    .creator {
+      color: coral;
+      font-style: italic;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1 class="star-name">Melody Queen</h1>
+  <p class="tagline">the most loved singer in town</p>
+
+  <h2 class="heading">hit songs</h2>
+  <p class="song">Dreams in the Sky</p>
+  <p class="song">Golden Melody</p>
+
+  <h2 class="heading">retired songs</h2>
+  <p class="classic">Moonlight Dance</p>
+  <p class="classic">Summer Vibes</p>
+
+  <p class="award">Best Performer</p>
+
+  <p class="creator">Created by ___________</p>
+
+</body>
+</html>
