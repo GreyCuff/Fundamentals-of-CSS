@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hobby Profile</title>
+
+    <style>
+
+      /* Universal Selector - affects all elements */
+      * {
+        font-size: 16px;
+      }
+
+      /* Element Selectors */
+      body {
+        background-color: beige;
+      }
+
+      h1 {
+        color: darkred;
+      }
+
+      h2 {
+        color: teal;
+      }
+
+      p {
+        color: slategray;
+      }
+
+      /* Class Selector */
+      .profile-info {
+        color: navy;
+        font-weight: bold;
+      }
+
+      /* ID Selector */
+      #profile-box {
+        background-color: lavender;
+      }
+
+    </style>
+
+  </head>
+  <body>
+
+    <h1>My Hobby Profile</h1>
+
+    <!-- Inline CSS: Add style="color: ____;" inside this p tag -->
+    <p style="color: orange;">Welcome! This page shares a little about me.</p>
+
+    <div id="profile-box">
+
+      <h2>About My Hobbies</h2>
+      <p class="profile-info">My name is Alex.</p>
+      <p class="profile-info">I enjoy painting landscapes.</p>
+      <p class="profile-info">My favourite activity is cycling.</p>
+      <p class="profile-info">I love reading adventure books.</p>
+
+    </div>
+
+    <h2>Things I Like</h2>
+    <p>My favourite animal is a dolphin.</p>
+    <p>My favourite game is badminton.</p>
+    <p>My favourite movie is Finding Nemo.</p>
+
+  </body>
+</html>
