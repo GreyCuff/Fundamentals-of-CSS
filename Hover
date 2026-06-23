@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Ticket Booking</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightyellow;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: darkred;
+    }
+
+    .ticket-btn {
+      background-color: crimson;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    /* Hover Effect */
+    .ticket-btn:hover {
+      background-color: darkred;
+      transform: scale(1.1);
+    }
+
+    .info {
+      margin-top: 20px;
+      color: dimgray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Movie Ticket Booking</h1>
+
+  <button class="ticket-btn">
+    Book Ticket
+  </button>
+
+  <p class="info">
+    Move your mouse over the button to see the hover effect.
+  </p>
+
+</body>
+</html>
