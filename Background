@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mountain Adventure</title>
+
+  <style>
+    body {
+      background-color: skyblue;
+      background-image: linear-gradient(to bottom, skyblue, lightgreen);
+      background-repeat: no-repeat;
+      background-position: top center;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      background-image: linear-gradient(to right, teal, green);
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      padding: 15px;
+    }
+
+    .info-box {
+      background-color: white;
+      border-radius: 12px;
+      padding: 15px;
+      margin-top: 20px;
+      color: darkslategray;
+    }
+
+    .info-box h2 {
+      color: forestgreen;
+    }
+
+    .sun {
+      width: 60px;
+      height: 60px;
+      background-color: gold;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    .footer {
+      text-align: center;
+      color: darkgreen;
+      margin-top: 20px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>Mountain Adventure</h1>
+    <p>Welcome to the world of mountains!</p>
+  </div>
+
+  <div class="info-box">
+    <h2>Interesting Fact</h2>
+    <p>Mount Everest is the highest mountain above sea level.</p>
+  </div>
+
+  <div class="sun"></div>
+
+  <p class="footer">Created by ___________</p>
+
+</body>
+</html>
