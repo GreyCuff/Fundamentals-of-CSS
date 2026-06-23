@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Quiz Portal</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lavender;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      margin: 10px;
+      cursor: pointer;
+    }
+
+    .start-btn {
+      background-color: seagreen;
+      color: white;
+    }
+
+    /* Active Pseudo-class */
+    .start-btn:active {
+      background-color: darkgreen;
+      transform: scale(0.95);
+    }
+
+    .locked-btn {
+      background-color: gray;
+      color: white;
+    }
+
+    /* Disabled Pseudo-class */
+    .locked-btn:disabled {
+      background-color: lightgray;
+      color: darkgray;
+      cursor: not-allowed;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Online Quiz Portal</h1>
+
+  <button class="start-btn">
+    Start Quiz
+  </button>
+
+  <button class="locked-btn" disabled>
+    Quiz Locked
+  </button>
+
+</body>
+</html>
