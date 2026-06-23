@@ -1,69 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Hobby Profile</title>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Travel Card</title>
 
-    <style>
+  <style>
 
-      /* Universal Selector - affects all elements */
-      * {
-        font-size: 16px;
-      }
+    /* Universal Selector */
+    * {
+      font-size: 16px;
+    }
 
-      /* Element Selectors */
-      body {
-        background-color: beige;
-      }
+    /* Element Selectors */
+    body {
+      background-color: lavender;
+    }
 
-      h1 {
-        color: darkred;
-      }
+    h1 {
+      color: darkred;
+    }
 
-      h2 {
-        color: teal;
-      }
+    h2 {
+      color: teal;
+    }
 
-      p {
-        color: slategray;
-      }
+    p {
+      color: dimgray;
+    }
 
-      /* Class Selector */
-      .profile-info {
-        color: navy;
-        font-weight: bold;
-      }
+    /* Class Selector */
+    .travel-info {
+      color: darkgreen;
+      font-weight: bold;
+    }
 
-      /* ID Selector */
-      #profile-box {
-        background-color: lavender;
-      }
+    /* ID Selector */
+    #travel-card {
+      background-color: honeydew;
+    }
 
-    </style>
+  </style>
+</head>
+<body>
 
-  </head>
-  <body>
+  <h1>My Travel Card</h1>
 
-    <h1>My Hobby Profile</h1>
+  <!-- Inline CSS -->
+  <p style="color: tomato;">Welcome to my travel adventure page!</p>
 
-    <!-- Inline CSS: Add style="color: ____;" inside this p tag -->
-    <p style="color: orange;">Welcome! This page shares a little about me.</p>
+  <div id="travel-card">
 
-    <div id="profile-box">
+    <h2>About My Trip</h2>
+    <p class="travel-info">Destination: Japan</p>
+    <p class="travel-info">Favourite City: Kyoto</p>
+    <p class="travel-info">Favourite Activity: Exploring Temples</p>
+    <p class="travel-info">Favourite Food: Sushi</p>
 
-      <h2>About My Hobbies</h2>
-      <p class="profile-info">My name is Alex.</p>
-      <p class="profile-info">I enjoy painting landscapes.</p>
-      <p class="profile-info">My favourite activity is cycling.</p>
-      <p class="profile-info">I love reading adventure books.</p>
+  </div>
 
-    </div>
+  <h2>Travel Highlights</h2>
+  <p>Visited beautiful gardens.</p>
+  <p>Experienced local culture.</p>
+  <p>Tried traditional Japanese cuisine.</p>
 
-    <h2>Things I Like</h2>
-    <p>My favourite animal is a dolphin.</p>
-    <p>My favourite game is badminton.</p>
-    <p>My favourite movie is Finding Nemo.</p>
-
-  </body>
+</body>
 </html>
