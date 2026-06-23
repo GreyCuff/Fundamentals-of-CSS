@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Book Collection</title>
+
+  <style>
+
+    /* Universal Selector */
+    * {
+      font-size: 16px;
+    }
+
+    /* Element Selectors */
+    body {
+      background-color: lavenderblush;
+    }
+
+    h1 {
+      color: darkmagenta;
+    }
+
+    h2 {
+      color: darkcyan;
+    }
+
+    p {
+      color: dimgray;
+    }
+
+    /* Class Selector */
+    .book-detail {
+      color: darkgreen;
+      font-weight: bold;
+    }
+
+    /* ID Selector */
+    #book-card {
+      background-color: mintcream;
+      padding: 15px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>My Book Collection</h1>
+
+  <p>Welcome to my favourite books page.</p>
+
+  <div id="book-card">
+
+    <h2>Featured Book</h2>
+    <p class="book-detail">Title: The Secret Garden</p>
+    <p class="book-detail">Author: Frances Hodgson Burnett</p>
+    <p class="book-detail">Genre: Fiction</p>
+    <p class="book-detail">Pages: 331</p>
+
+  </div>
+
+  <h2>More Books I Enjoy</h2>
+  <p>Harry Potter</p>
+  <p>Percy Jackson</p>
+  <p>The Hobbit</p>
+
+</body>
+</html>
