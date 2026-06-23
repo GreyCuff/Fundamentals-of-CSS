@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: aliceblue;
+      text-align: center;
+      padding: 40px;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    input {
+      width: 250px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid gray;
+      border-radius: 8px;
+      margin: 10px;
+    }
+
+    /* Focus Pseudo-class */
+    input:focus {
+      border-color: royalblue;
+      background-color: lightyellow;
+      outline: none;
+    }
+
+    .note {
+      color: dimgray;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Student Registration Form</h1>
+
+  <input type="text" placeholder="Enter Your Name">
+
+  <br>
+
+  <input type="email" placeholder="Enter Your Email">
+
+  <p class="note">
+    Click inside the input boxes to see the focus effect.
+  </p>
+
+</body>
+</html>
