@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Destinations</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: aliceblue;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: darkblue;
+    }
+
+    .place-card {
+      background-color: white;
+      border: 2px solid steelblue;
+      padding: 15px;
+      margin-bottom: 20px;
+      overflow: auto;
+    }
+
+    /* Float Property */
+    .place-image {
+      width: 150px;
+      height: 100px;
+      background-color: lightblue;
+      float: left;
+      margin-right: 15px;
+      text-align: center;
+      line-height: 100px;
+      font-weight: bold;
+      color: navy;
+    }
+
+    .description {
+      color: dimgray;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Famous Travel Destinations</h1>
+
+  <div class="place-card">
+    <div class="place-image">Image</div>
+
+    <p class="description">
+      Paris is known for its beautiful architecture, famous landmarks,
+      and rich cultural history. Millions of tourists visit every year.
+    </p>
+  </div>
+
+  <div class="place-card">
+    <div class="place-image">Image</div>
+
+    <p class="description">
+      Tokyo is a vibrant city that combines modern technology with
+      traditional culture, making it a unique destination.
+    </p>
+  </div>
+
+</body>
+</html>
